@@ -1,0 +1,62 @@
+*{
+    margin: 0%;
+    padding: 0%;
+  
+}
+
+body{
+    background-color: beige;
+    overflow-x: hidden;
+   
+}
+
+#parent{
+   
+   display: flex;
+    width:100vw;
+    height:100vh;
+  
+    justify-content: center;
+    align-items: center;
+}
+
+#child{
+    width:20vw;
+    height:50vh;
+    background-color: rgba(255, 255, 255, 0);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+#base{
+    width:100%;
+    aspect-ratio:1/1;
+  
+    position: absolute;
+    
+}
+#lef{
+    position: absolute;
+    width:100%;
+    left:-1%;
+    aspect-ratio:1/1;
+
+    animation-name:lef;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes lef {
+
+    0%{opacity: 0%;}
+   
+    50%{opacity:100%;}
+     
+    100%{opacity:0%;}
+    
+    
+}

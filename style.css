@@ -1,0 +1,142 @@
+*{
+    margin: 0%;
+    padding: 0%;
+  
+}
+
+body{
+    background-color: beige;
+    overflow-x: hidden;
+   
+}
+
+#box{
+   
+   display: flex;
+    width:100vw;
+    height:100vh;
+    background-color: rgba(0, 0, 255, 0);
+  
+    justify-content: center;
+    align-items: center;
+}
+
+#section_1{
+    width:38vw;
+    height:100vh;
+    background-color: rgba(255, 65, 65, 0);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    border-right:.3vw solid black;
+}
+#section_2{
+    width:58vw;
+    height:100vh;
+    background-color: rgba(0, 0, 0, 0);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   overflow: hidden;
+    position: relative;
+}
+#img{
+    width:50%;
+    aspect-ratio:1/1;
+    animation-name:img;
+    animation-duration:3s;
+}
+
+@keyframes img{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+#login_body{
+     width:30vw;
+    height:60vh;
+    background-color: rgba(255, 255, 255, 0.143);
+    border-radius:2vw;
+    box-shadow:0px 0px 10px 2px black;
+    animation-name:login_body;
+    animation-duration:1.5s;
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+@keyframes login_body {
+
+    0%{
+        right:85%;
+        opacity:.2;
+        width:10vw;
+
+    }
+
+    100%{
+        right:0%;
+        opacity:1;
+        width:30vw;
+    }
+    
+}
+
+form{
+    animation-name:form;
+    animation-duration:8s;
+    
+    
+    
+   
+
+
+}
+
+@keyframes form{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+#pass{
+    width:20vw;
+    height:5vh;
+    border-radius:.5vw;
+    border:1px solid black;
+    background-color: rgba(113, 118, 118, 0.336);
+    margin: auto;
+    justify-content: center;
+
+}
+#text{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+#login{
+    margin: auto;
+ 
+    position:relative;
+    left:7vw;
+    padding:.8vw;
+    border-radius:.5vw;
+    
+}

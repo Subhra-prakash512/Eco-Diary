@@ -1,0 +1,111 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-color: rgb(248, 227, 199);
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar{
+    display:none;
+}
+
+#box_body{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#box{
+   
+  margin-top:50vw;
+    width:43vw;
+    
+
+    
+    
+
+
+
+}
+
+#page{
+    width:100%;
+    height:100%;
+    background-color: rgb(255, 255, 255);
+     border:1px solid black;
+}
+
+#heading{
+    font-family: "Allura";
+    font-weight: 500;
+    font-size:3vw;
+    padding:1vw;
+}
+
+#date_text{
+    text-align:right;
+    margin-right:1vw;
+}
+#main{
+   
+    width:100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+    
+    
+}
+
+.row{
+    width:90%;
+    height:1.8vw;
+    
+   
+    border-bottom:1px solid black;
+}
+
+.row_text{
+    font-family: "Playwrite AU QLD", cursive;
+    white-space:nowrap;
+    
+}
+
+.row_record{
+    color:red;
+}
+#button_con{
+    width:100%;
+}
+#date{
+    display: block;
+    margin: auto;
+}
+
+#button{
+   display: block;
+    margin: auto;
+   padding:1vw;
+   border-radius:.5vw;
+   color: rgb(0, 0, 0);
+   background-color: antiquewhite;
+   font-weight:400;
+   border:1px solid rgba(0, 0, 0, 0);
+   transition:.3s ease-in;
+  
+}
+
+
+#button:hover{
+     box-shadow:0vw 0vw 1vw 0vw black;
+
+}
+
+
